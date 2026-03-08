@@ -18,27 +18,21 @@
 It aggregates ship and flight routes, live coordinates, and geodata into a unified system, providing clear geographic and geopolitical awareness for analysis, visualization, and decision-making.
 . 🚀
 
-🚀 **Visit the Blog:**  
-👉 https://haybnz.web.app/blog
+> [!TIP]
+> - 🚀 **Visit the Blog (Geo Sentinel Updates & Insights)** [[🌐 Open Blog]](https://haybnz.web.app/blog)
+> - 🚀 **Official Website** [[🌍 Visit Site]](https://varadaraj.online/)
 
-🚀 **Visit the Blog:**  
-👉 https://varadaraj.online/
+> [!CAUTION]
+> - 🚨 **Geo Sentinel AI Updates** — Stay updated with the latest **Geo Sentinel AI** releases and announcements. [[📝 Subscribe Here]](https://docs.google.com/forms/d/e/1FAIpQLSe3qBh6r1orih2MkLf5DjdolX0jv5Abct02363lLxpXEute-Q/viewform)
+> - 🎥 **Video Tutorial** — Learn how to use **Geo Sentinel AI**. [[▶️ Watch Video]](https://youtu.be/v4IKzEb03u0)
 
-
----
-
-🔴 **NOTE**  
-Stay updated with the latest **Geo Sentinel AI** releases and announcements.
-
-👉 **Subscribe here:**  
-https://docs.google.com/forms/d/e/1FAIpQLSe3qBh6r1orih2MkLf5DjdolX0jv5Abct02363lLxpXEute-Q/viewform
-
-
-🔴 **Video Tutorial**  
-Stay updated with the latest **Geo Sentinel AI** releases and announcements.
-
-👉 **Subscribe here:**  
-https://youtu.be/v4IKzEb03u0
+> [!NOTE]
+> - 🔎 **Criminal Search** [[IMG]](https://github.com/h9zdev/GeoSentinel/blob/main/images/Screenshot_20260308_194133.png?raw=true) [[📖 HOW TO USE GUIDE]](7168.md)
+> - 🌍 **3D Earth Support** [[IMG]](https://github.com/h9zdev/GeoSentinel/blob/main/images/Screenshot%20From%202026-02-28%2023-57-42.png?raw=true)
+> - 📡 **Live CCTV Over Globe (Traffic Camera Feeds)** [[IMG]](https://github.com/h9zdev/h9zdev/blob/main/assets/CCTV.png?raw=true)
+> - 🛰️ **Track Satellites** [[IMG]](https://github.com/h9zdev/GeoSentinel/blob/main/images/Screenshot_20260308_194025.png?raw=true)
+> - 📰 **Live News Feeds**
+> - 🚦 **Traffic Updates with Live Particle Simulation** [[IMG]](https://github.com/h9zdev/h9zdev/blob/main/assets/Screenshot_20260308_192213.png?raw=true)
 
 ## 📚 Documentation
 
@@ -62,6 +56,13 @@ Detailed guides on how to use GeoSentinel's advanced features:
 -   🔍 **Advanced Web Scraper**: Multi-engine OSINT search with Google Dorking for social media platforms (Twitter, Reddit, Instagram, etc.).
 -   🤖 **GeoSential AI**: Intelligent assistant for automated real-time tracking of flights and vessels with integrated OSINT.
 
+### 📸 Feature Preview
+
+| Feature | Preview | Feature | Preview |
+|---|---|---|---|
+| 🔎 Criminal Search | <img src="https://github.com/h9zdev/GeoSentinel/blob/main/images/Screenshot_20260308_194133.png?raw=true" width="320"> | 🌍 3D Earth Support | <img src="https://github.com/h9zdev/GeoSentinel/blob/main/images/Screenshot%20From%202026-02-28%2023-57-42.png?raw=true" width="320"> |
+| 📡 Live CCTV Over Globe | <img src="https://github.com/h9zdev/h9zdev/blob/main/assets/CCTV.png?raw=true" width="320"> | 🛰️ Track Satellites | <img src="https://github.com/h9zdev/GeoSentinel/blob/main/images/Screenshot_20260308_194025.png?raw=true" width="320"> |
+| 🚦 Traffic Updates with Particle Simulation | <img src="https://github.com/h9zdev/h9zdev/blob/main/assets/Screenshot_20260308_192213.png?raw=true" width="320"> | 📰 Live News Feeds | Coming Soon |
 ### 🌍 Earth HTML Features
 -   Interactive global map with real-time tracking
 -   Advanced search capabilities (HEX, flight, vessel, coordinates)
@@ -85,8 +86,13 @@ Detailed guides on how to use GeoSentinel's advanced features:
   ```javascript
   const tomtomApiKey = 'YOUR_TOMTOM_API_KEY';
   ```
+  - Also in line   const tomtomApiKey = ''; (Used for global Map Traffic Layers)
+  - Line 2426: const accessToken = ''; (Optional Mapbox Access Token for the 3D globe)
+  - Line 2491: const weatherApiKey = ''; (Used for OpenWeatherMap API data inside popups)
+  - Line 2501: const tomtomApiKey = ''
+  - Line 7021  Mapbox needed
 
-- **Other APIs**: Add relevant API keys in `app.py`
+- **Other APIs**: Add relevant API keys in `app.py` api are nned across the file.
 
 ---
 
