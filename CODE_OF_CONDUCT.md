@@ -8,7 +8,6 @@ everyone contributing to **Geo Sentinel AI**.
 Participants are expected to treat each other with respect,
 professionalism, and kindness.
 
-------------------------------------------------------------------------
 
 ## Expected Behavior
 
@@ -29,7 +28,7 @@ The following behavior will not be tolerated:
 -   Trolling or disruptive comments
 -   Publishing private information without permission
 
-------------------------------------------------------------------------
+
 
 ## Enforcement
 
